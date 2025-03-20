@@ -1,0 +1,39 @@
+# Password Manager
+
+A simple password manager application built with Python and Tkinter that allows users to generate and store passwords securely. The application saves the passwords in a JSON file and provides a user-friendly interface for managing them.
+
+## Features
+
+- Generate secure random passwords.
+- Save and retrieve passwords associated with different websites.
+- Copy passwords to the clipboard for easy pasting.
+
+## Requirements
+
+To run this application, you need to have Python installed on your machine along with the following libraries:
+
+- `tkinter` (comes pre-installed with Python)
+- `pyperclip` (for clipboard operations)
+- `json` (comes pre-installed with Python)
+
+You can install `pyperclip` using pip:
+
+```bash
+pip install pyperclip
+
+Generate a Password:
+Click the "Generate Password" button to create a random password. The password will be automatically copied to your clipboard.
+Save a Password:
+Fill in the "Website", "Email/Username", and "Password" fields.
+Click the "Add" button to save your credentials. If any field is empty, an error message will prompt you to complete the fields.
+Find a Password:
+Enter the website name in the "Website" field and click the "Search" button. If the website exists, it will display the associated email and password.
+
+Data Storage
+All saved passwords are stored in a data.json file in the same directory as the application script. If this file does not exist, it will be created automatically when you save your first password.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author
+Emrys Grant
